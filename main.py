@@ -11,6 +11,11 @@ def helloworld():
 def helloworld():
 #  return "<p>Hello!</p>"
   return render_template("about.html")
+
+@app.route('/your-profile')
+def helloworld():
+#  return "<p>Hello!</p>"
+  return render_template("profile.html")
   
 if __name__ == '__main__' :
   app.run(host='0.0.0.0', port=5000)
