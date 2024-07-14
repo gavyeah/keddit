@@ -12,7 +12,7 @@ def helloworld():
 #  return "<p>Hello!</p>"
   return render_template("about.html")
 
-@app.route('/your-profile')
+@app.route('/profile')
 def helloworld():
 #  return "<p>Hello!</p>"
   return render_template("profile.html")
